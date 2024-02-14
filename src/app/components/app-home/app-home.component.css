@@ -1,0 +1,19 @@
+.badgeName{
+    background: rgba(7, 136, 255,.2);
+    border-radius: 4px;
+    padding: 5px 12px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.textleft, h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,9 @@
+*{
+    color: #707476;
+    font-family: Space Grotesk,sans-serif;
+    --bs-body-font-weight: 400;
+    --bs-body-font-size: 1rem;
+    --bs-body-line-height: 1.6;
+    overflow-x: hidden;
+    background: linear-gradient(90deg,#07233B 1.67%,#041D34 39.95%,#04192D 58.24%,#040E18 80.28%,#050C16 101.48%);
+}
