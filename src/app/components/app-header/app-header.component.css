@@ -2,3 +2,16 @@
     margin-top: 30px;
     margin-left: 100px;
 }
+
+.headerContainer{
+    position: fixed;
+}
+
+.scrolled {
+    margin: 0;
+    padding: 20px;
+    background-color: black !important;
+    box-shadow: 0 0.125rem 0.25rem #37373713;
+    transition: background-color 0.5s;
+  }
+  

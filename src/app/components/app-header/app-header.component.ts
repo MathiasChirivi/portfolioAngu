@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app-header.component.css']
 })
 export class AppHeaderComponent {
+  isScrolled: boolean = false;
+  menuOpen:boolean = false;
 
+  @HostListener("window:scroll", [])
+  handleScroll() {
+    if (window.scrollY > 0) {
+      this.isScrolled = true;
+    } else {
+      this.isScrolled = false;
+    }
+  }
+  
 }
