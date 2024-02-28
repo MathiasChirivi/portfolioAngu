@@ -1,0 +1,40 @@
+.AboutUs{
+    margin: 0 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.badgeAbout{
+    background: rgba(7, 136, 255,.2);
+    border-radius: 4px;
+    padding: 5px 12px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.pText{
+    padding: 0 15%;
+}
+
+.circleEffect{
+    position: absolute;
+    top: 80px;
+    right: -60px;
+    z-index: 1;
+}
+
+.circleEffect2{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    z-index: 1;
+}
