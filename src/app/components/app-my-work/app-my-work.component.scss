@@ -1,0 +1,42 @@
+#myWork {
+  background: rgba(7, 136, 255, 0.1);
+  padding: 100px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+:host ::ng-deep {
+  .product-item {
+      .product-item-content {
+          border: 1px solid var(--surface-d);
+          border-radius: 3px;
+          margin: .3rem;
+          text-align: center;
+          padding: 2rem 0;
+      }
+  
+      .product-image {
+          width: 50%;
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+      }
+  }
+}
